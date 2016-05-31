@@ -28,7 +28,7 @@ cd 3-stringManip
 open index.html
 ```
 
-[Live Site On Github]()
+[Live Site On Github](http://megancford.github.io/NSS-SPA-3-stringmanipulation)
 
 
 ![screenshot](stringmanip-screenshot.jpg)
