@@ -1,0 +1,41 @@
+<!-- In your HTML, create an text input and a button.
+The text input should only accept letters. No numbers. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>String Manipulation Exercise</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href= "main.css">
+</head>
+<body>
+  <div class= "container-fluid">
+    <div class = "row">
+      <!-- empty left container div for centering -->
+      <div class = "col">
+      </div>
+
+      <!-- main content div -->
+      <div class = "col content" id = "mainContent">
+        <h1>String Manipulation Exercise</h1>
+        <div class = "inputStuff">
+          <input class = "input-lg" type="text" id="inputString" placeholder="enter some text here" focus>
+          <button class = "btn" id="startButton">Results!</button>
+        </div>
+        <div class = "resultStuff">
+          <h3 id = "reversedText"></h3>
+          <h3 id = "alphabetizedText"></h3>
+          <h3 id = "palindromeIndicator"></h3>
+        </div>
+      </div>
+
+      <!-- empty right container div for centering -->
+      <div class = "col">
+      </div>
+    </div>
+  </div>
+</body>
+<script src = "string.js"></script>
+</html>
